@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.amsu.amsuinsolebletest.ui.EcgLineActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_healthydata_middle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y520"
+        android:layout_marginTop="@dimen/y96">
+        <com.amsu.amsuinsolebletest.ui.view.DashboardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.amsu.amsuinsolebletest.ui.view.EcgView
+            android:id="@+id/pv_healthydata_path"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开ecg"
+        android:onClick="openEcgData"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="判断状态"
+            android:onClick="judgeState"/>
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关ecg"
+            android:onClick="stopEcgData"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灯(脱落)"
+            android:onClick="stopEcgData"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灯(脱落)"
+            android:onClick="stopEcgData"/>-->
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:layout_margin="@dimen/x36"/>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width2" format="dimension" />
+        <attr name="border_color2" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <!-- 声明属性级的名称 -->
+    <declare-styleable name="MyCalendarView">
+
+        <!-- 声明一个属性，整型 -->
+        <attr name="cellTextSize" format="dimension" />
+        <!-- 声明一个属性，字符串 -->
+        <attr name="weekTextSize" format="dimension" />
+        <attr name="cellHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DashboardView">
+        <attr name="big_circle_radius" format="dimension" />
+        <attr name="small_circle_radius" format="dimension" />
+        <attr name="small_point_radius" format="dimension" />
+        <attr name="long_dials" format="dimension" />
+        <attr name="short_dials" format="dimension" />
+        <attr name="width_dials" format="dimension"></attr>
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="width" format="dimension" />
+        <attr name="height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleRingView">
+        <attr name="circlering_width" format="dimension" />
+        <attr name="circlering_background_color" format="color"/>
+        <attr name="circlering_start_color" format="color"/>
+        <attr name="circlering_end_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RadarView">
+        <attr name="background_radar" format="color" />
+        <attr name="background_region1" format="color" />
+        <attr name="background_region2" format="color" />
+        <attr name="background_region3" format="color" />
+        <attr name="title_text_color" format="color"/>
+        <attr name="title_text_size" format="dimension"/>
+        <attr name="radius_radar" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="FoldLineView">
+        <attr name="line_color" format="color" />
+        <attr name="point_color" format="color" />
+        <attr name="line_width" format="dimension"/>
+        <attr name="radius_point" format="dimension"/>
+        <attr name="undertext_size" format="dimension"/>
+        <attr name="abovertext_size" format="dimension"/>
+        <attr name="undertext_color" format="color" />
+        <attr name="abovertext_color" format="color" />
+        <attr name="abovertext_margin" format="dimension"/>
+        <attr name="undertext_margin" format="dimension"/>
+        <attr name="radius_point_big" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PieChart">
+        <attr name="part1_color" format="color" />
+        <attr name="part2_color" format="color" />
+        <attr name="part3_color" format="color" />
+        <attr name="part4_color" format="color" />
+        <attr name="ring_width" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="HeightCurve">
+        <attr name="curve_line_color" format="color" />
+        <attr name="fillstart_color" format="color" />
+        <attr name="fillend_color" format="color" />
+        <attr name="curve_line_width" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="swipelistviewstyle">
+        <attr name="right_width" format="dimension"></attr>
+    </declare-styleable>
+</resources>
